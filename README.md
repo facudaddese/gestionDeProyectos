@@ -22,7 +22,7 @@ El sistema permite **registrar, actualizar y eliminar proyectos**, además de va
 	- ***ProyectoNoValidoException***: Se utiliza para manejar errores como nombres repetidos o fechas inválidas en los proyectos.
 	
 4. **Uso de Colecciones**
-	- Se usa **ArrayList < Proyecto >** para almacenar y gestionar los proyectos de manera dinámica.
+	- Se usa **Set < Proyecto >** para almacenar y gestionar los proyectos de manera dinámica.
 	 
 ## **Tecnologías Utilizadas**
 
