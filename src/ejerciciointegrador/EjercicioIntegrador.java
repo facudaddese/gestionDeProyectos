@@ -5,7 +5,7 @@ import java.time.Month;
 
 public class EjercicioIntegrador {
 
-    public static void main(String[] args) throws ProyectoNoValidoException {
+    public static void main(String[] args) {
 
         AdministracionProyecto adm = new AdministracionProyecto();
         Proyecto p1 = new ProyectoPrioridad(5, "CodeSphere", "Plataforma colaborativa para compartir código en la nube", LocalDate.of(2025, 1, 1), LocalDate.of(2025, 2, 13), "En planificación");
